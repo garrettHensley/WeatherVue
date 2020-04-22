@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    
     <HelloWorld />
   </div>
 </template>
@@ -12,7 +11,13 @@ import HelloWorld from "@/components/HelloWorld.vue";
 export default {
   name: "Home",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
+
+<style>
+body {
+  background-color: #374e5a;
+}
+</style>
