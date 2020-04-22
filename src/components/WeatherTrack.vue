@@ -1,5 +1,5 @@
 <template>
-  <div class="hello container mt-3 ">
+  <div class="container mt-3">
     <div class="location">
       <div class="d-inline-flex pt-2 px-2 temp text-light">
         <input type="radio" id="one" value="F" v-model="temp" />
@@ -133,9 +133,10 @@ export default {
 }
 .location {
   background-color: #373541;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 .deck-holder {
   background-color: #353d41;
-  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 </style>

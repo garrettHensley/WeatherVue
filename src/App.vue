@@ -11,8 +11,4 @@
   </div>
 </template>
 
-<style>
-body {
-  background-color: #35413f;
-}
-</style>
+
