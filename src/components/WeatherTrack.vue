@@ -133,7 +133,7 @@ export default {
 }
 .location {
   background-color: #373541;
-  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 .deck-holder {
   background-color: #353d41;
