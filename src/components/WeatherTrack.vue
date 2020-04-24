@@ -60,7 +60,7 @@ export default {
   mounted() {
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/onecall?lat=27.33&lon=27.33&appid=01dca2b05ee4bb1b44311bfc21622618`
+        `https://api.openweathermap.org/data/2.5/onecall?lat=27.33&lon=-82.53&appid=01dca2b05ee4bb1b44311bfc21622618`
       )
       .then((response) => (this.info = response.data.daily));
   },
@@ -133,7 +133,7 @@ export default {
 }
 .location {
   background-color: #373541;
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .deck-holder {
   background-color: #353d41;
